@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/gregdavill/gf180-mpw0-serv
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: Apache-2.0
+  upstream_default_branch: main
+tapeouts:
+- org: google
+  run: gf180mcu-mpw0
+  slot: '6079'
+  project: Serv tri-core
+  size: caravel-upw
+  kind: digital + SRAM
+  commit: 6b35f4a50e
+  commit_source: designer commit from Efabless tapeout/logs/git.info
+  tag: google/gf180mcu-mpw0/6079
+  branch: tapeout/google/gf180mcu-mpw0/6079
+  page: https://wafer.space/google-gf180mcu-mpw0/
+generated: '2026-10-17T23:43:09Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/google/gf180mcu-mpw0/6079
+- upstream/main
